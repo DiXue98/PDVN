@@ -1,0 +1,24 @@
+name: pdvn
+channels:
+  - conda-forge
+  - pytorch
+  - anaconda
+  - defaults
+dependencies:
+  - python=3.9.7
+  - pip
+  - pytorch==1.12.1
+  - torchvision
+  - pandas
+  - rdkit=2021.09.4
+  - rdchiral_cpp
+  - networkx
+  - graphviz
+  - python-graphviz
+  - pip:
+    - setuptools==59.5.0
+    - tqdm
+    - tensorboard
+    - matplotlib
+    - -e retro_star/packages/mlp_retrosyn
+    - -e .
