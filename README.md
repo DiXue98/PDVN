@@ -96,3 +96,17 @@ python retro_plan.py \
   --iteration 500
 ```
 To evaluate the GDP17-1000 dataset, replace the value of `TEST_ROUTES` with `dataset/gdb17_1000.pkl`.
+
+## Citing PDVN
+If you use PDVN in your research, please consider citing our work in the following BibTeX format:
+
+```tex
+@InProceedings{pmlr-pdvn,
+  title = 	 {Retrosynthetic Planning with Dual Value Networks},
+  author =       {Liu, Guoqing and Xue, Di and Xie, Shufang and Xia, Yingce and Tripp, Austin and Maziarz, Krzysztof and Segler, Marwin and Qin, Tao and Zhang, Zongzhang and Liu, Tie-Yan},
+  booktitle = 	 {Proceedings of the 40th International Conference on Machine Learning},
+  pages = 	 {22266--22276},
+  year = 	 {2023},
+  volume = 	 {202},
+}
+```
